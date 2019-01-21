@@ -49,7 +49,7 @@ if (email == true) {
                 console.log(chalk.red.bold('Breach Date : ') +
                     chalk.italic(breach.BreachDate));
 
-                console.log(chalk.red.bold('Description : \n') +
+                console.log(chalk.red.bold('Description : ') +
                     chalk.yellow.italic(breach.Description));
 
                 console.log(chalk.green('-----------------------------------\n'))
