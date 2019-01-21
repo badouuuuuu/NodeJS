@@ -5,7 +5,7 @@
 ## Install
 
 ```shell
-$ npm i @badouuuuuu/mailchecker-cli
+$ npm i @badouuuuuu/cli-mailchecker
 ```
 
 ### How to use
