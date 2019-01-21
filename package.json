@@ -1,6 +1,6 @@
 {
   "name": "@badouuuuuu/mailchecker-cli",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "mail checker for vulnerability security",
   "main": "./index.js",
   "scripts": {
