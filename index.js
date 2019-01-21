@@ -2,7 +2,6 @@
 
 // Initiate npm modules
 const axios = require('axios')
-const markdown = require('markdown-js')
 const validator = require('email-validator')
 const ora = require('ora');
 const chalk = require('chalk');
