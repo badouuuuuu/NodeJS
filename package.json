@@ -2,7 +2,7 @@
   "name": "@badouuuuuu/mailchecker-cli",
   "version": "1.0.3",
   "description": "mail checker for vulnerability security",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,11 +21,10 @@
     "chalk": "^2.4.2",
     "email-validator": "^2.0.4",
     "figlet": "^1.2.1",
-    "markdown-js": "0.0.4",
     "ora": "^3.0.0"
   },
   "bin": {
-    "mailcheckercli": "index.js"
+    "mailcheckercli": "./index.js"
   },
   "devDependencies": {},
   "keywords": [
