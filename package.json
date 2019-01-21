@@ -1,6 +1,6 @@
 {
   "name": "@badouuuuuu/cli-mailchecker",
-  "version": "1.0.2",
+  "version": "1.0.0-alpha",
   "description": "mail checker for vulnerability security",
   "main": "./index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/badouuuuuu/NodeJS.git"
+    "url": "git+https://github.com/badouuuuuu/NodeJS-MailChecker-CLI.git"
   },
-  "author": "badou",
+  "author": "badouuuuuu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/badouuuuuu/NodeJS/issues"
+    "url": "https://github.com/badouuuuuu/NodeJS-MailChecker-CLI/issues"
   },
-  "homepage": "https://github.com/badouuuuuu/NodeJS#readme",
+  "homepage": "https://github.com/badouuuuuu/NodeJS-MailChecker-CLI#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "chalk": "^2.4.2",
