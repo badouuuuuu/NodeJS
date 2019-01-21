@@ -56,7 +56,7 @@ if (email == true) {
 
             })
 
-            console.log(chalk.green('Github : ') + 'https://github.com/badouuuuuu\nby badouuuuuu for Becode.Org\n')
+            console.log(chalk.green('Github : ') + 'https://github.com/badouuuuuu\nCode by badouuuuuu for Becode.Org\n')
        
        
         }).catch(err => {
