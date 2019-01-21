@@ -16,6 +16,7 @@ const email = validator.validate(`${args}`)
 const url = `https://haveibeenpwned.com/api/v2/breachedaccount/${args}`
 
 
+// ASCII Message
 console.log(chalk.white.bold(figlet.textSync('Email   Breach   Checker! \n', {
     horizontalLayout: 'default',
     verticalLayout: 'default'
@@ -23,6 +24,7 @@ console.log(chalk.white.bold(figlet.textSync('Email   Breach   Checker! \n', {
 
 
 
+// Check if email enter in args is a valide email adress
 if (email == true) {
     const spinner = ora(`Checking for Breach : ` + chalk.red(`${args}`));
     spinner.start();
@@ -32,15 +34,15 @@ if (email == true) {
         spinner.text = chalk.red(`\nBreach found for : \n`) + chalk.yellow(`${args}\n`);
 
 
-        axios({
+        axios({ // Axios request to haveibeenpwned.com
             method: 'get',
             url: url,
             headers: {
-                'User-Agent': 'mailcheckercli'
+                'User-Agent': 'mailcheckercli' // CLI name
             }
         }).then(res => {
 
-            res.data.forEach(function (breach) {
+            res.data.forEach(function (breach) { // Loop for each breach information
 
                 console.log(chalk.red.bold('\nDomaine : ') +
                     chalk.italic(breach.Domain + '\n'));
@@ -58,8 +60,8 @@ if (email == true) {
             console.log(chalk.green('Github : ') + 'https://github.com/badouuuuuu\nCode by badouuuuuu for Becode.Org\n')
 
 
-        }).catch(err => {
-            console.log(err);
+        }).catch(err => { //  Error logged
+         
             if (err.response.status == 404) {
                 console.log("\n-> No Breach Found, " + chalk.green("Youhou!\n"));
                 console.log(chalk.italic('by badouuuuuu for Becode.Org\n'));
