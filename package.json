@@ -1,5 +1,5 @@
 {
-  "name": "mailcheckercli",
+  "name": "@badouuuuuu/mailcheckercli",
   "version": "1.0.0",
   "description": "mail checker for vulnerability security",
   "main": "index.js",
@@ -27,5 +27,8 @@
   "bin": {
     "mailcheckercli": "index.js"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "keywords": [
+    "cli"
+  ]
 }
