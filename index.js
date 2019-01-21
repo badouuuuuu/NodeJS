@@ -38,7 +38,7 @@ if (email == true) {
             method: 'get',
             url: url,
             headers: {
-                'User-Agent': 'mailcheckercli' // CLI name
+                'User-Agent': 'mailchecker-cli' // CLI name
             }
         }).then(res => {
 

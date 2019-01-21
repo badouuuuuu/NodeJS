@@ -1,10 +1,11 @@
 # NodeJS - Email Breach Checker !
 
+> Npm url
+
 ## Install
-##### Clone the project from github : https://github.com/badouuuuuu/NodeJS
 
 ```shell
-$ npm install
+$ npm i @badouuuuuu/mailchecker-cli
 ```
 
 ### How to use
@@ -20,9 +21,7 @@ $ mailcheckercli youremail@adress.com
 
 ## Package Used :
 _Will be installed with_ :
-```shell
-$ npm install
-```
+
 >-  [email-validator](https://www.npmjs.com/package/email-validator)
 >
 >-  [axios](https://www.npmjs.com/package/axios)
