@@ -1,7 +1,5 @@
 # NodeJS - Email Breach Checker !
 
-> Npm url
-
 ## Install
 
 ```shell
