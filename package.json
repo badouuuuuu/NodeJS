@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-cli-mailchecker",
+  "version": "1.0.0",
+  "description": "mail checker for vulnerability security",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badouuuuuu/NodeJS.git"
+  },
+  "author": "badou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badouuuuuu/NodeJS/issues"
+  },
+  "homepage": "https://github.com/badouuuuuu/NodeJS#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "isemail": "^3.2.0"
+  }
+}
