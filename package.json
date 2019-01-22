@@ -26,7 +26,9 @@
   "bin": {
     "mailcheckercli": "./index.js"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@badouuuuuu/cli-mailchecker" : "1.0.1-alpha"
+  },
   "keywords": [
     "cli",
     "mail",

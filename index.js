@@ -16,7 +16,7 @@ const url = `https://haveibeenpwned.com/api/v2/breachedaccount/${args}`
 
 
 // ASCII Message
-console.log(chalk.white.bold(figlet.textSync('Email   Breach   Checker! \n', {
+console.log(chalk.white.bold(figlet.textSync('Email Breach Checker! \n', {
     horizontalLayout: 'default',
     verticalLayout: 'default'
 })));
