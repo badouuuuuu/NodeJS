@@ -1,6 +1,6 @@
 {
   "name": "@badouuuuuu/cli-mailchecker",
-  "version": "1.0.1-alpha",
+  "version": "1.0.1",
   "description": "mail checker for vulnerability security",
   "main": "./index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "mailcheckercli": "./index.js"
   },
   "devDependencies": {
-    "@badouuuuuu/cli-mailchecker" : "1.0.1-alpha"
+    "@badouuuuuu/cli-mailchecker": "1.0.1-alpha"
   },
   "keywords": [
     "cli",
