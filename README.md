@@ -3,7 +3,7 @@
 ## Install
 
 ```shell
-$ npm i @badouuuuuu/cli-mailchecker
+$ npm i -g @badouuuuuu/cli-mailchecker
 ```
 
 ### How to use
