@@ -1,8 +1,7 @@
 #!/usr/bin/env node
-require('@badouuuuuu/cli-mailchecker');
 
 // Initiate npm modules
-const
+
 const axios = require('axios')
 const validator = require('email-validator')
 const ora = require('ora');
@@ -73,7 +72,7 @@ if (email == true) {
 
         })
 
-        spinner.stop();
+        spinner.succeed(['Ok']);
 
     }, 1000);
 
