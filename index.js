@@ -77,7 +77,7 @@ if (email == true) {
 
 
 
-
-
+} else {
+    console.log(chalk.red("\nIts not a valid email adress ! \n"));
 
 }
