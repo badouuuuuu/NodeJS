@@ -17,7 +17,7 @@ const url = `https://haveibeenpwned.com/api/v2/breachedaccount/${args}`
 
 
 // ASCII Message
-console.log(chalk.white.bold(figlet.textSync('Email Breach Checker! \n', {
+console.log(chalk.white.bold(figlet.textSync('Email    Breach    Checker!', {
     horizontalLayout: 'default',
     verticalLayout: 'default'
 })));
@@ -79,6 +79,6 @@ if (email == true) {
 
 
 } else {
-    console.log(chalk.red("\nIts not a valid email adress ! \n"));
+    console.log(chalk.red("\nIt's not a valid email adress ! \n"));
 
 }
